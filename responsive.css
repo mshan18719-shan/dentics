@@ -1,0 +1,166 @@
+@media only screen and (max-width:993px) {
+
+    .header-start {
+        display: none !important;
+    }
+
+    .itemsLeft {
+        display: initial !important;
+    }
+
+    .myBTN {
+        width: 100%;
+        margin: 0 !important;
+    }
+
+    .container {
+        max-width: 930px;
+    }
+
+    .dental_card_div {
+        margin: 145px -220px 0 0px;
+        gap: 20px;
+    }
+
+    .offer {
+        background-position-x: -190px;
+    }
+
+    .vision {
+        width: 100%;
+    }
+
+    .vision_para {
+        width: 100%;
+        padding: 28px 21px 30px 7px;
+    }
+
+    .mission_img img {
+        position: relative;
+        margin-top: 0rem;
+        margin-left: 0rem;
+        width: 100%;
+    }
+
+    .testimonial_card {
+        height: auto;
+    }
+
+}
+
+@media only screen and (max-width:768px) {
+    .info-card {
+        margin: 15px auto;
+    }
+
+    .frequently_img img {
+        height: 105%;
+    }
+
+    .chose_img {
+        flex-direction: column !important;
+        margin-top: 4rem !important;
+    }
+
+    .choose_img_first {
+        margin-bottom: 3rem;
+    }
+
+    .bg-care {
+        align-items: center;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .testimonial_cards {
+        flex-direction: column !important;
+    }
+
+    .testimonial_card {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .appointment {
+        width: 100%;
+    }
+
+    .btn-appoint {
+        width: 55%;
+    }
+
+    .testimonial_card {
+        height: auto;
+    }
+}
+
+@media only screen and (max-width:430px) {
+    .hero_bg_img {
+        width: 100%;
+    }
+
+    .logoimg span {
+        color: #3a5087;
+        font-weight: 650;
+        font-size: 17px;
+    }
+
+    .footer_forms {
+        flex-direction: column !important;
+        gap: 6px !important;
+    }
+
+    .event_content {
+        width: 70%;
+    }
+
+    .slider_card img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .carousel_start p {
+        font-size: 16px;
+    }
+
+    .vision {
+        height: auto;
+    }
+
+    .mission_icons img {
+        width: 50px;
+        height: auto;
+    }
+
+    .mission_icons_box {
+        display: flex;
+        gap: .5rem;
+        /* flex-direction: column; */
+    }
+
+    .mission_icons {
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width:340px) {
+
+    .slider_card img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .carousel_start p {
+        font-size: 15px;
+    }
+
+    .icons_slider span {
+        margin-right: 2px;
+    }
+
+    .icons_slider span i {
+        font-size: 10px;
+    }
+}
